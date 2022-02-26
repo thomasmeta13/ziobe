@@ -1,0 +1,11 @@
+Model Information:
+* title:	The Bedroom - Van Gohg
+* source:	https://sketchfab.com/3d-models/the-bedroom-van-gohg-3179d7f6c7c846a79e30a86878f5c696
+* author:	Franco Marsitelli (https://sketchfab.com/Marsdrof)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "The Bedroom - Van Gohg" (https://sketchfab.com/3d-models/the-bedroom-van-gohg-3179d7f6c7c846a79e30a86878f5c696) by Franco Marsitelli (https://sketchfab.com/Marsdrof) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

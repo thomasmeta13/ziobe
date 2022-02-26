@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Solarity</title>
+    <meta name="description" content="Lesghere">
+    <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-environment-component/dist/aframe-environment-component.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico"/>
+
+</head>
+
+<body> 
+  <main class="main">
+ 
+      
+    <aside class="sidebar">
+      <nav class="nav">
+        <ul>
+          <li class="active"><a href="home.html">Home</a></li>
+          <li><a href="#">Popular today</a></li>
+          <li><a href="#">Your DAOs</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href="#">Auction</a></li>
+          <li><a href="#">Create</a></li>
+        </ul>
+      </nav>
+    </aside>
+  
+  <section class="twitter">
+    <nav class="navbar">
+      <a href="index.html"><div class="logo">Solarity</div></a>
+      <!-- NAVIGATION MENU -->
+      <ul class="nav-links">
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+      <li><a href="/">Explore</a></li>
+      <li><a href="index.html">Marketplace</a></li>
+      <li class="services">
+        <a href="experiences.html">Experiences</a>
+      <!-- DROPDOWN MENU -->
+      <ul class="dropdown">
+        <li><a href="/">Games </a></li>
+        <li><a href="/">P2E</a></li>
+        <li><a href="/">Art</a></li>
+        <li><a href="/">Educational</a></li>
+        <li><a href="/">Solarity</a></li>
+      </ul>
+      </li>
+      <li><a href="daos.html">DAOS</a></li>
+      <li><a href="/">Launchpad</a></li>
+      </div>
+      </ul>
+      <a href="account.html"><div style="padding:0.2em;display: inline-flex; background-color: blueviolet; border-radius: 20em; margin-left: 36em;">
+        <p style="font-size: smaller; margin-left: 0.5em;">Wallet<br>13...8x</p><hr>
+        <img src="image/money.png" style="border-radius: 3em; width: 50%; "/>
+      </div></a>
+      </nav>
+  <div id="myEmbeddedScene" style="width:100%;">
+    <a-scene embedded>
+    <a-assets>
+        <a-asset-item id="sculpture1" src="images/super mario/scene.gltf"></a-asset-item>
+        <img id="sky" src="https://cdna.artstation.com/p/assets/images/images/027/829/656/large/porntap-paenmook-nsmbu-sky-background-1.jpg?1592674343&dl=1">
+    </a-assets>
+    <a-gltf-model src="#sculpture1" position="0 0.5 -2" scale="0.1 0.1 0.1"> </a-gltf-model>
+      <a-sky src="#sky"></a-sky>
+    </a-scene>
+  </div>
+
+  <div class="container">
+    <div> 
+      <div style="display:inline-flex">
+      <div style="color: rgb(206, 206, 206); margin-bottom: 3px; display:inline-flex;">
+        <p style="font-size: 1.3em; margin-right: 1.5em; margin-top:1.9em"> Looking at </p><h2 style="font-size: 2.2em; color: rgb(175, 93, 252);">Super Mario 101</h2> </div>
+        <button class="offer" style="margin-left: 390px; width: 200px; height: 60px; margin-top: 15px; font-size:medium;">VISIT</button></div>
+      <p style="color: rgb(230, 230, 230); margin-bottom: 30px; font-size: 15px; ">This experience made by user SatoshiNaga420 wants to represent the world if it was in a film made in the 1920s.</p> 
+    <div class="coin">
+        <div id="section"><p style="color: rgb(255, 255, 255); font-size: 19px; padding:7px;">
+          Popular Today</p>
+        </div>
+        <a href="#">
+          <div class="NFTcard">
+            <div style= "margin:0px; padding:0px">
+               <img src="image/DeFiland.jpg"
+               class="NFTimage1"></img>
+              <div class="NFTdescription">
+                <p class="NFTname">
+                  Defi Land    
+                </p>
+                <p class="NFTcollection">Cross-Chain ☑</p>
+                <p class="NFTprice1">👍 81% &emsp; &emsp;👤 174 online</p>
+              </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="NFTcard">
+                <div style= "margin:0px; padding:0px">
+                   <img src="image/aurory.jpg"
+                   class="NFTimage"></img>
+                  <div class="NFTdescription">
+                    <p class="NFTname">
+                      Aurory   
+                    </p>
+                    <p class="NFTcollection">Solana ☑</p>
+                    <p class="NFTprice1">👍 86% &emsp; &emsp;👤 1414 online</p>
+                  </div>
+                </a>
+                  <a href="#"> 
+                </div>
+                <div class="NFTcard">
+                <div style= "margin:0px; padding:0px">
+                    <img src="image/travian.png"
+                    class="NFTimage"></img>
+                    <div class="NFTdescription">
+                    <p class="NFTname">
+                        Travian   
+                    </p>
+                    <p class="NFTcollection">Solarity ☑</p>
+                    <p class="NFTprice1">👍 91% &emsp;        👤 21414 online</p>
+                    </div>
+                </div>
+            </a>
+                <a href="#"> 
+                <div class="NFTcard">
+                <div style= "margin:0px; padding:0px">
+                    <img src="image/decentral.jpeg"
+                    class="NFTimage"></img>
+                    <div class="NFTdescription">
+                    <p class="NFTname">
+                        Decentral Games
+                    </p>
+                    <p class="NFTcollection">Decentraland ☑</p>
+                    <p class="NFTprice1">👍 69% &emsp; &emsp;👤 420 online</p>
+                    </div>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    
+    <div class="coin">
+        <div id="section"><p style="color: rgb(255, 255, 255); font-size: 19px; padding:7px;">
+          Most Profitable</p>
+        </div>
+        <a href="#">
+          <div class="NFTcard">
+            <div style= "margin:0px; padding:0px">
+               <img src="image/axie.jpg"
+               class="NFTimage1"></img>
+              <div class="NFTdescription">
+                <p class="NFTname">
+                  Axie Infinity    
+                </p>
+                <p class="NFTcollection">Ethereum ☑</p>
+                <p class="NFTprice1">👍 81% &emsp; &emsp;👤 174 online</p>
+              </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="NFTcard">
+                <div style= "margin:0px; padding:0px">
+                   <img src="image/galaxy.png"
+                   class="NFTimage"></img>
+                  <div class="NFTdescription">
+                    <p class="NFTname">
+                      Yes Man Sky   
+                    </p>
+                    <p class="NFTcollection">Solarity ☑</p>
+                    <p class="NFTprice1">👍 93% &emsp; &emsp;👤 1414 online</p>
+                  </div>
+                </a>
+                  <a href="#"> 
+                </div>
+                <div class="NFTcard">
+                <div style= "margin:0px; padding:0px">
+                    <img src="image/tradevr.jpg"
+                    class="NFTimage"></img>
+                    <div class="NFTdescription">
+                    <p class="NFTname">
+                        Trade VR   
+                    </p>
+                    <p class="NFTcollection">Solarity ☑</p>
+                    <p class="NFTprice1">👍 91% &emsp;        👤 21414 online</p>
+                    </div>
+                </div>
+            </a>
+                <a href="#"> 
+                <div class="NFTcard">
+                <div style= "margin:0px; padding:0px">
+                    <img src="image/nohomo.jpg"
+                    class="NFTimage"></img>
+                    <div class="NFTdescription">
+                    <p class="NFTname">
+                        Homo Evolution
+                    </p>
+                    <p class="NFTcollection">Decentraland ☑</p>
+                    <p class="NFTprice1">👍 69% &emsp; &emsp;👤 420 online</p>
+                    </div>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="coin">
+        <div id="section"><p style="color: rgb(255, 255, 255); font-size: 19px; padding:7px;">
+          Because You Liked Artistic Experiences</p>
+        </div>
+        <a href="#">
+          <div class="NFTcard">
+            <div style= "margin:0px; padding:0px">
+               <img src="image/art1.jpg"
+               class="NFTimage1"></img>
+              <div class="NFTdescription">
+                <p class="NFTname">
+                      Trippy AF
+                </p>
+                <p class="NFTcollection">Solarity ☑</p>
+                <p class="NFTprice1">👍 93% &emsp; &emsp;👤 174 tips</p>
+              </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="NFTcard">
+                <div style= "margin:0px; padding:0px">
+                   <img src="image/art2.jpeg"
+                   class="NFTimage"></img>
+                  <div class="NFTdescription">
+                    <p class="NFTname">
+                      Fuck McDonalds   
+                    </p>
+                    <p class="NFTcollection">Solarity ☑</p>
+                    <p class="NFTprice1">👍 86% &emsp; &emsp;👤 1414 tips</p>
+                  </div>
+                </a>
+                  <a href="#"> 
+                </div>
+                <div class="NFTcard">
+                <div style= "margin:0px; padding:0px">
+                    <img src="image/art3.jpeg"
+                    class="NFTimage"></img>
+                    <div class="NFTdescription">
+                    <p class="NFTname">
+                        Vinnie Nights   
+                    </p>
+                    <p class="NFTcollection">Solarity ☑</p>
+                    <p class="NFTprice1">👍 91% &emsp;        👤 21414 tips</p>
+                    </div>
+                </div>
+            </a>
+                <a href="#"> 
+                <div class="NFTcard">
+                <div style= "margin:0px; padding:0px">
+                    <img src="image/art4.jpg"
+                    class="NFTimage"></img>
+                    <div class="NFTdescription">
+                    <p class="NFTname">
+                        Jump in Babylonia
+                    </p>
+                    <p class="NFTcollection">Solarity ☑</p>
+                    <p class="NFTprice1">👍 69% &emsp; &emsp;👤 420 tips</p>
+                    </div>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</section>
+</main>
+</body> 
+</html>

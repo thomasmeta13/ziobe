@@ -1,0 +1,517 @@
+a-scene {
+    height: 575px;
+    width: 1340px;
+    margin-top:4.6em;
+    margin-left: -10px;
+}
+
+p, h1 {
+    font-family: Verdana, Tahoma, sans-serif;
+    color:rgb(247, 247, 247)
+}
+.riquadro  {
+    height: 200px;
+    width: 200px;
+}
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+.container {
+    margin-left: 50px;
+    margin-right:50px;
+}
+
+#section {
+    background-color:rgba(16, 1, 34, 0.486);
+    border-radius:10px; 
+}
+
+.NFTcard {
+    display:inline-flex; 
+    margin-Bottom:5px; 
+    padding:0px
+}
+
+.NFTimage {
+    width:80%; 
+    border: 1px solid #050505; 
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+
+.NFTdescription {
+    background-Color:#1d1d1d; 
+    border: 1px solid #050505; 
+    margin-Right:56px; 
+    border-Bottom-Right-Radius:10px; 
+    border-Bottom-Left-Radius:10px;
+    margin-top: -5px;
+    width: 80%;
+}
+
+.NFTname {
+    color:rgb(255, 255, 255); 
+    margin-Top:8px; 
+    text-Align:left; 
+    padding-Left:20px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.NFTcollection {
+    color:rgba(255, 160, 122, 0.623); 
+    margin-Top:-20px; 
+    font-Size:13px; 
+    text-Align:left; 
+    padding-Left:20px;
+}
+
+.NFTprice {
+    font-Size:17px; 
+    color:white; 
+    padding-Left:20px; 
+    text-Align:left; 
+    margin-Top:5px;
+}
+
+.NFTbuttons {
+    display:flex; 
+    margin-Left:10px;
+    
+}
+
+.offer {
+    margin-Top:10px; 
+    margin-Left:0px; 
+    margin-Bottom:10px; 
+    background: #414141;
+    border-Radius: 10px;
+    color: #fff;
+    font-Size: 0.8em;
+    padding:10px 15px;
+}
+
+.buy {
+    margin-Top:10px; 
+    margin-Left:10px; 
+    margin-Bottom:10px;
+    border-Width: 2px;
+    border-Radius:15px;
+    font-Size: 0.8em; padding:5px 15px;
+}
+
+hr {
+    margin-Top:10px; 
+    border-Color:grey;
+}
+
+.categories {
+    display: inline-flex;
+    margin-left: 1em;
+}
+
+.cat {
+    background-color: rgba(3, 7, 32, 0.315);
+    padding: 0.5em;
+    border-radius: 0.5em;
+    margin-right:60px;
+}
+
+.desc {
+    text-align: center;
+    font-size: large;
+    margin-bottom: 6px;
+    margin-top:10px;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ html {
+     font-family: Arial;
+     font-size: 16px;
+
+}
+ .sidebar {
+     position: fixed;
+     width: 12%;
+     height: 100vh;
+     background: #1d0029;
+     font-size: 0.65em;
+     margin-top: -10px;
+     margin-left: -10px;
+}
+ .nav {
+     position: relative;
+     margin: 0 0%;
+     text-align: left;
+     top: 50%;
+     transform: translateY(-50%);
+     font-weight: bold;
+}
+ .nav ul {
+     list-style: none;
+}
+ .nav ul li {
+     position: relative;
+     margin: 3.2em 0;
+}
+ .nav ul li a {
+     line-height: 5em;
+     text-transform: uppercase;
+     text-decoration: none;
+     letter-spacing: 0.2em;
+     color: rgba(255, 255, 255, 0.35);
+     display: block;
+     transition: all ease-out 300ms;
+}
+ .nav ul li.active a {
+     color: white;
+}
+ .nav ul li:not(.active)::after {
+     opacity: 0.2;
+}
+ .nav ul li:not(.active):hover a {
+     color: rgba(255, 255, 255, 0.75);
+}
+ .nav ul li::after {
+     content: '';
+     position: absolute;
+     width: 100%;
+     height: 0.2em;
+     background: black;
+     left: 0;
+     bottom: 0;
+     background-image: linear-gradient(to right, #5e42a6, #b74e91);
+}
+ .twitter {
+     position: relative;
+     width: 88%;
+     float: right;
+     height: 100vh;
+}
+
+
+
+
+
+/* UTILITIES */
+li {
+    list-style: none;
+   }
+   a {
+    text-decoration: none;
+   }
+   
+   /* NAVBAR STYLING STARTS */
+   .navbar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 97%; /* Full width */
+    margin-left:-12%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #1d0029;
+    color: #fff;
+    height: 40px;
+    z-index: 9999;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #12001a;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: #530f6e;
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+
+   .links {
+       background-color: #1002132d;
+       display: inline-flex;
+       margin-top: 3.6em;
+       padding: 0.5em;
+       border-radius: 10px
+       
+   }
+
+   .link {
+       margin-left: 8em;
+       background-color: transparent;
+       border-color: transparent;
+       font-size: medium;
+   }
+
+   .NFTprice1 {
+    font-Size:15px; 
+    color:white; 
+    padding-Left:20px; 
+    text-Align:left; 
+    margin-Top:5px;
+   }
+
+   .NFTimage1 {
+    width:80%; 
+    border: 1px solid #050505; 
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+   }
+
+   .post {
+       background-color: #414141;
+       border-radius: 2em;
+       padding: 2em;
+       margin: 3em;
+   }
+
+   .topPost {
+    display: inline-flex;
+    padding: 2em;
+   }
+
+   .imgPost {
+    border: 1px solid #050505; 
+    width:80%;
+    margin-left: 2em;
+    margin-top: 1.5em;
+   }
+
+   .propic {
+    border-radius: 18em;
+    max-width: 80px;
+    margin-right: 1.5em;
+    float: left;
+    margin-top: 0.7em;
+   }
+
+   .username {
+       font-size: larger;
+       color: #9775ee;
+       margin-top: -10px;
+   }
+
+   .postdesc {
+        font-size: 15px;
+        margin-left: 6.3em;
+        margin-top: -10px;
+   }
+
+   .accountVR {
+    height: 27em;
+    width: 101%;
+    margin-top:4.6em;
+    margin-left: -10px;
+    z-index: 1;
+    position: absolute;
+   }
+
+   .postpro {
+    background-color: #414141;
+    border-radius: 2em;
+    padding: 2em;
+    width: 60%;
+    margin: 2em;
+    margin-left: 10em;
+
+   }
+
+   .ciao {
+        background-color: #414141;
+        border-radius: 2em;
+        padding: 2em;
+        width: 80%;
+        margin: 2em;
+        height: 70%;
+        margin-left: 7em;
+   }
+   
+   .page-section {
+     display: none;
+  }
+
+  
+  .page-section.active {
+      display: block;
+  }
+
+  .vote {
+    background-color: #414141;
+    border-radius: 2em;
+    padding: 2em;
+    margin: 3em;
+}
+
+  .smallpropic {
+    border-radius: 2em;
+    max-width: 100px;
+    margin-right: 1.5em;
+    margin-top: 0.7em;
+    height: 50px;
+  }
+
+
+  .check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 19px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+    .check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius:1em;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .check:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .check input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .check input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .check .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .ciaone {
+    background-color: #414141;
+    border-radius: 2em;
+    width: 80%;
+    height: 80%;
+}
+
+.post3D {
+    background-color: #414141;
+    border-radius: 2em;
+    padding: 1.5em;
+    margin: 3em;
+    width: 82%;
+    margin-left: 2em;
+   }
+
+ 
+   .post3dobj {
+    background-color: #414141;
+    border-radius: 2em;
+    padding: 2em;
+    width: 350px;
+    margin: 2em;
+    height: 220px;
+    margin-left: 7em;
+}
+
+.post3dworld {
+    background-color: #414141;
+    border-radius: 2em;
+    padding: 2em;
+    width: 500px;
+    margin: 2em;
+    height: 220px;
+    margin-left: -5em;
+}
+
+.profsummary {
+    background-color: #414141;
+    border-radius: 1em;
+    padding: 1.5em;
+    margin-top: 3em;
+    margin-left: -5em;
+    width: 250px;
+    height: 250px;
+}
+
+.infos {
+    background-color: #414141;
+    border-radius: 1em;
+    padding: 1.5em;
+    margin-top: 3em;
+    margin-left: -1em;
+    width: 250px;
+    height: 250px;
+}

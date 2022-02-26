@@ -1,0 +1,11 @@
+Model Information:
+* title:	Room
+* source:	https://sketchfab.com/3d-models/room-1b6c92c27c8848dc8f741390b96e9da5
+* author:	kayacutt (https://sketchfab.com/kayacutt)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Room" (https://sketchfab.com/3d-models/room-1b6c92c27c8848dc8f741390b96e9da5) by kayacutt (https://sketchfab.com/kayacutt) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
